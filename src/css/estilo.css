@@ -3,6 +3,8 @@
 
 *::-webkit-scrollbar{
     width: 0px;
+    opacity: 0;
+    display: none;
 }
 
 @media (min-width : 600px){
@@ -69,12 +71,11 @@
     }
 
     .apresentacao{
-        top: 901px;
         width: calc(100vw - 15px);
         background-color: #ffc1ae;
         width: 100vw;
-        height: 534px;
-        height: calc(100vh + 20px);
+        height: 100vh;
+        height: 100vh;
         font-family: "PT Serif";
         color: #202059;
         overflow: scroll;
@@ -114,8 +115,8 @@
 
     .oferta-serv{
         background-image: url("../imagens/desktop/ultima_img.jpg");
-        width: 100vw;
-        height: calc(100vh + 250px);
+        width: calc(100vw + 25px);
+        height: calc(143vh);
         background-repeat: no-repeat;
         background-size: cover;
     }
